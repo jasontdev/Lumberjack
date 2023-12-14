@@ -6,7 +6,7 @@ phases:
       - curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel STS
   build:
     commands:
-      - /tmp/./dotnet -c Release -r win-x64 -p:PublishSingleFile=true --self-contained false
+      - /tmp/.dotnet/./dotnet -c Release -r win-x64 -p:PublishSingleFile=true --self-contained false
 artifacts:
   files:
     - bin/Release/net7.0/win-x64/publish/Lumberjack.exe
