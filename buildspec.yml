@@ -3,12 +3,10 @@ version: 0.2
 phases:
   install:
     commands:
-      - curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel STS --install-dir $HOME/.dotnet
-      - ls $HOME
-      - export DOTNET_ROOT=$HOME/.dotnet
+      - curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel STS
   build:
     commands:
-      - ls $HOME
+      - ls /tmp
       - dotnet -c Release -r win-x64 -p:PublishSingleFile=true --self-contained false
 artifacts:
   files:
