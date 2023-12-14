@@ -4,6 +4,7 @@ phases:
   install:
     commands:
       - curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel STS --install-dir $HOME/.dotnet
+      - ls $HOME
       - export DOTNET_ROOT=$HOME/.dotnet
   build:
     commands:
