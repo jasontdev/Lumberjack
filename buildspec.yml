@@ -7,6 +7,7 @@ phases:
   build:
     commands:
       - export DOTNET_ROOT=/tmp/.dotnet
+      - which dotnet
       - dotnet -c Release -r win-x64 -p:PublishSingleFile=true --self-contained false
 artifacts:
   files:
