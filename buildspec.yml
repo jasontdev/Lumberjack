@@ -7,7 +7,7 @@ phases:
       - export DOTNET_ROOT=/tmp/.dotnet
   build:
     commands:
-      - dotnet -c Release -r win-x64 -p:PublishSingleFile=true --self-contained false
+      - dotnet -c Release -r win-x64
 artifacts:
   files:
     - bin/Release/net7.0/win-x64/publish/Lumberjack.exe
