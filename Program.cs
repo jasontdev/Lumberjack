@@ -3,12 +3,14 @@ using Serilog;
 
 class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
         var log = new LoggerConfiguration().WriteTo.Console().CreateLogger();
+        var arguments = new CommandLineArgs(args);
 
-        // TODO: load config
-        // TODO: build Test[]
-        // TODO: execute Test[]
+        if (arguments.ConfigFile != null)
+        {
+            // load config
+        }
     }
 }

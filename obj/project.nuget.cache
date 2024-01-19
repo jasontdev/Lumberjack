@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "d/7OWUs+BSNU7B7jTWtdAeouzDAmju7X3gBNqRGy9uHR2qixCwZgQyAV5Ay+B/nf8b3rtqlSxXRRvt8MdHuRSA==",
+  "dgSpecHash": "JUU/uA109+NFw2HLpZrAPJcGboPwHNA3x/SFJC5g1TszXR2+LeuCBK7IjClbMDJYoPvK5cNb5OzNHmk3UX2r5g==",
   "success": true,
   "projectFilePath": "/home/jason/projects/Lumberjack/Lumberjack.csproj",
   "expectedPackageFiles": [
     "/home/jason/.nuget/packages/serilog/3.1.1/serilog.3.1.1.nupkg.sha512",
-    "/home/jason/.nuget/packages/serilog.sinks.console/5.0.1/serilog.sinks.console.5.0.1.nupkg.sha512",
-    "/home/jason/.nuget/packages/microsoft.netcore.app.host.win-x64/7.0.14/microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+    "/home/jason/.nuget/packages/serilog.sinks.console/5.0.1/serilog.sinks.console.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }
