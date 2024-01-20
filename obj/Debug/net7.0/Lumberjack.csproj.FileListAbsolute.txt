@@ -16,3 +16,15 @@
 /home/jason/projects/Lumberjack/obj/Debug/net7.0/Lumberjack.pdb
 /home/jason/projects/Lumberjack/obj/Debug/net7.0/Lumberjack.genruntimeconfig.cache
 /home/jason/projects/Lumberjack/obj/Debug/net7.0/ref/Lumberjack.dll
+/home/jason/projects/Lumberjack/bin/Debug/net7.0/Microsoft.Extensions.Configuration.dll
+/home/jason/projects/Lumberjack/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/jason/projects/Lumberjack/bin/Debug/net7.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+/home/jason/projects/Lumberjack/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Json.dll
+/home/jason/projects/Lumberjack/bin/Debug/net7.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/home/jason/projects/Lumberjack/bin/Debug/net7.0/Microsoft.Extensions.FileProviders.Physical.dll
+/home/jason/projects/Lumberjack/bin/Debug/net7.0/Microsoft.Extensions.FileSystemGlobbing.dll
+/home/jason/projects/Lumberjack/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll
+/home/jason/projects/Lumberjack/bin/Debug/net7.0/System.Text.Encodings.Web.dll
+/home/jason/projects/Lumberjack/bin/Debug/net7.0/System.Text.Json.dll
+/home/jason/projects/Lumberjack/bin/Debug/net7.0/runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll
+/home/jason/projects/Lumberjack/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Binder.dll

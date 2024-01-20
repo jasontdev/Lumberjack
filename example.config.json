@@ -1,0 +1,9 @@
+{
+  "TestConfigs": [
+    {
+      "Name": "OldDownloads",
+      "Type": "ListFiles",
+      "Target": "/home/jason/Downloads"
+    }
+  ]
+}

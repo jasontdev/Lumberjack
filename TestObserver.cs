@@ -3,11 +3,11 @@ interface TestObserver
     void Update(List<string> output);
 }
 
-class GetFileObjects : TestObserver
+class LogEach : TestObserver
 {
     private Serilog.Core.Logger log;
 
-    public GetFileObjects(Serilog.Core.Logger logger)
+    public LogEach(Serilog.Core.Logger logger)
     {
         log = logger;
     }

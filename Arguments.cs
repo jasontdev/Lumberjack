@@ -15,7 +15,14 @@ public class CommandLineArgs
         {
             if (args[0] == "-c" || args[0] == "--config")
             {
-                ConfigFile = args[1];
+                try
+                {
+                    ConfigFile = System.IO.Path.GetFullPath(args[1]);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e);
+                }
             }
             else
             {

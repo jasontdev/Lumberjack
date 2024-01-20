@@ -1,11 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "JUU/uA109+NFw2HLpZrAPJcGboPwHNA3x/SFJC5g1TszXR2+LeuCBK7IjClbMDJYoPvK5cNb5OzNHmk3UX2r5g==",
+  "dgSpecHash": "5jM/tL/i2+oqA9cE2LYjUx++BR2RlkXs/4AvN4MCxCOlb7P3G/OfvddDLB6iYycqMTc4cM6PR9dLhOxIqpUWPA==",
   "success": true,
   "projectFilePath": "/home/jason/projects/Lumberjack/Lumberjack.csproj",
   "expectedPackageFiles": [
+    "/home/jason/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "/home/jason/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/jason/.nuget/packages/microsoft.extensions.configuration.binder/8.0.1/microsoft.extensions.configuration.binder.8.0.1.nupkg.sha512",
+    "/home/jason/.nuget/packages/microsoft.extensions.configuration.fileextensions/8.0.0/microsoft.extensions.configuration.fileextensions.8.0.0.nupkg.sha512",
+    "/home/jason/.nuget/packages/microsoft.extensions.configuration.json/8.0.0/microsoft.extensions.configuration.json.8.0.0.nupkg.sha512",
+    "/home/jason/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "/home/jason/.nuget/packages/microsoft.extensions.fileproviders.physical/8.0.0/microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
+    "/home/jason/.nuget/packages/microsoft.extensions.filesystemglobbing/8.0.0/microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
+    "/home/jason/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/home/jason/.nuget/packages/serilog/3.1.1/serilog.3.1.1.nupkg.sha512",
-    "/home/jason/.nuget/packages/serilog.sinks.console/5.0.1/serilog.sinks.console.5.0.1.nupkg.sha512"
+    "/home/jason/.nuget/packages/serilog.sinks.console/5.0.1/serilog.sinks.console.5.0.1.nupkg.sha512",
+    "/home/jason/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
+    "/home/jason/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

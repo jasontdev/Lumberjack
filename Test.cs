@@ -4,7 +4,7 @@ interface Test
     void Execute();
 }
 
-class ListFiles : Test
+class FindFiles : Test
 {
     private readonly string path;
     private readonly int hoursOld;
@@ -13,7 +13,7 @@ class ListFiles : Test
     private readonly string extension;
     private List<TestObserver> observers = new List<TestObserver>();
 
-    public ListFiles(String path,
+    public FindFiles(String path,
                      int hoursOld = 0,
                      Boolean recursive = false,
                      String parent = "",

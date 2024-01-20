@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Microsoft.Extensions.Configuration;
 using Serilog;
 
 class Program
@@ -10,7 +10,32 @@ class Program
 
         if (arguments.ConfigFile != null)
         {
-            // load config
+            IConfigurationRoot config = new ConfigurationBuilder()
+            .AddJsonFile(arguments.ConfigFile).Build();
+            var testConfigs = config.GetSection("TestConfigs").Get<List<TestConfig>>();
+            var tests = new List<Test>();
+
+            if (testConfigs?.Count > 0)
+            {
+                foreach (TestConfig testConfig in testConfigs)
+                {
+                    if (testConfig.Type == "ListFiles")
+                    {
+                        var test = new FindFiles(testConfig.Target);
+                        test.AddObserver(new LogEach(log));
+                        tests.Add(test);
+                    }
+                }
+            }
+            else
+            {
+                log.Error("Failed to load TestConfigs");
+            }
+
+            foreach (Test test in tests)
+            {
+                test.Execute();
+            }
         }
     }
 }
